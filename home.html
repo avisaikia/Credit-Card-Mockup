@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Ui Design</title>
+    <style>
+        
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("images/bg1.png");
+  background-size: cover;
+}
+.container {
+  position: relative;
+  background-image: url("images/bg1.png");
+  background-size: cover;
+  padding: 35px;
+  border-radius: 22px;
+  max-width: 380px;
+  width: 100%;
+  box-shadow: 5px 5px 30px 30px rgba(255, 243, 243, 0.1);
+}
+header,
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo img {
+  width: 60px;
+  margin-right: 10px;
+}
+.wifi img {
+  position: relative;
+  top: 60px;
+  width: 32px;
+  margin-right: 3px;
+  
+}
+h5 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+header .chip {
+  position: relative;
+  left: 117px;
+  width: 46px;
+}
+h6 {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 400;
+}
+h5.number {
+  margin-top: 4px;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+h5.name {
+  margin-top: 20px;
+}
+.container .card-details {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <span class="logo">
+          <img src="images/visa.png" alt="" />
+         
+        </span>
+
+        
+        <img src="images/chip.png" alt="" class="chip" />
+
+        <span class="wifi">
+          <img src="images/wifi.png" alt=""  />
+         
+        </span>
+
+        
+      </header>
+
+      <div class="card-details">
+        <div class="name-number">
+         
+          <h5 class="number">1002   2001   5555   3020</h5>
+          <h5 class="name">Abhinav Saikia</h5>
+        </div>
+        <div class="valid-date">
+          <h6>Valid Thru</h6>
+          <h5>05/28</h5>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
