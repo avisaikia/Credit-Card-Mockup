@@ -1,6 +1,6 @@
-# Credit Card Mockup
+# Debit Card Mockup
 
-It is a visual representation of a credit card's front design. It allows you to showcase your branding, typography, and design skills while simulating the look and feel of a real credit card. 
+It is a visual representation of a Debit card's front design. It allows you to showcase your branding, typography, and design skills while simulating the look and feel of a real credit card. 
 
 
 ## Tech Stack
